@@ -1,0 +1,278 @@
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    /* manu part start */
+    #main-manu .logButton {
+        position: static;
+        transform: translateY(0%);
+    }
+    
+    #main-manu button {
+        font-size: 14px;
+        padding: 7px 15px;
+    }
+    /* manu part end */
+     /* Banner part start */
+     
+#banner h2 {
+	font-size: 40px;
+	line-height: 46px;
+}
+
+#banner h1 {
+	font-size: 50px;
+	line-height: 54px;
+	margin-top: -13px;
+}
+
+#banner p {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#banner a {
+	font-size: 14px;
+	padding: 7px 15px;
+	border: 1px solid #d50a51;
+	border-radius: 40px;
+}
+
+#banner .img {
+	position: relative;
+	background-color: transparent;
+}
+#banner .img img {
+	position: static;
+	width: 100% !important;
+}
+#banner .text {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+     /* Banner part end */
+    /* History part start  */
+    #history {
+        margin-top: 10px;
+    }
+    #history .img img {
+        display: none;
+    }
+    #history .text h2{
+        margin-left: 25px;
+    }
+    #history .text h3{
+        margin-left: -20px;
+    }
+    #history .text p{
+        text-align: center;   
+    }
+    /* History part end  */
+    /* gift section start */
+    #gift {
+        margin-top: -88px;
+    }
+    #gift .img img {
+        display: none;
+    }
+    #gift .text h2{
+        margin-left: 30px;
+    }
+    #gift .text h3{
+        margin-left: -30px;
+    }
+    #gift .text p{
+        text-align: center;   
+    }
+    #gift .text p span{
+        text-align: center !important;
+    }
+    #gift a{
+        margin-right: 0px;
+        margin-left: 10px;
+        margin-top: -40px;
+    }
+    /* gift section end */
+    /* Ticket part css stsrt */
+    #ticket{
+        margin-top: 0px;
+    }
+    #ticket .text h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    
+    #ticket .text h1 {
+        font-size: 50px;
+        line-height: 54px;
+        margin-top: -13px;
+    }
+    
+    #ticket .text p {
+        text-align: center;   
+    }
+    #ticket .text p span{
+        text-align: center !important;
+    }    
+    #ticket .img img {
+        display: none;
+    }
+    /* Ticket part css end */
+
+     /* Service part start */
+     #service .left_part h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    #service h2{
+        padding-top: 0px;
+    }
+    
+    #service .left_part h3 {
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: -13px;
+    }
+    #service .left_part p{
+        text-align: center;   
+    }
+    #service .left_part p span{
+        text-align: center !important;
+    }
+     /* Service part end */
+     /* Capture part start */
+     #capture{
+        padding: 10px 0px;
+     }
+    #capture .text h2{
+        text-align: center; 
+        margin-left: 40px;
+    }
+    #capture .text img{
+        margin-right: 20px;
+    }
+    #capture .text h3{
+        margin-left: 40px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    #capture .text  p{
+        text-align: center;   
+    }
+    #capture .text  p span{
+        text-align: center !important;
+    }
+    #capture .text a{
+        position: static;
+        margin-bottom: 15px;
+        margin-left: 8px;
+    }
+    #capture .text .but a{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+     /* Capture part end */
+     /* counDown part start */
+     .counter_container .main .item h1{
+        font-size: 34px;
+     }
+     .counter_container .main .item h2{
+        font-size: 24px;
+     }
+     /* countDown part end */
+     /* slider part start */
+     #slic .prev {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 25px;
+        top: 100% !important;
+        transform: translateY(0%) !important;
+        left: 15px;
+        z-index: 999;
+    }
+    
+    
+    #slic .next {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 25px;
+        top: 100% !important;
+        transform: translateY(0%) !important;
+        right: 15px;
+        z-index: 999;
+    }
+    #slic .stuf_left {
+        padding: 0px 16px;
+
+    }
+     /* slider part end */
+     /* Address part start  */
+     #address{
+        margin-top: 60px;
+     }
+     #address .letter .main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    #address .letter form {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    #address .letter .main .left h2{
+        font-size: 26px;
+    }
+    #address .letter .main .left p{
+        font-size: 12.4px;
+    }
+    #address .letter {
+        background-color: yellowgreen;
+        padding: 10px;
+        border-radius: 10px;
+        transform: translateY(-50%);
+        margin-left: -10px;
+    }
+
+    #address .letter button i {
+	margin-top: 74px;
+	right: -50px;
+}
+
+    #address .letter form input {
+        margin-left: 0;
+        height: 33px;
+        padding: 0 0px;
+        background: transparent;
+        border: 1px solid #fff;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    #address .mail img {
+        top: 120px;
+        left: 60px;
+    }
+    #address .web h2 {
+        padding-top: 0px;
+    }
+    #address .web i{
+        top: 30px;
+    }
+    #address .location h2 {
+        margin-top: -180px;
+    }
+     /* Address part end  */
+     /* Footer part start */
+     #footer .last_part p{
+        font-size: 10px;
+     }
+     #address .location i{
+        top: 30px;
+     }
+     /* Footer part end */
+
+
+}

@@ -1,0 +1,1028 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+image{
+    vertical-align: middle;
+}
+/* common css end */
+/* manu css part start */
+#main-manu ul li a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+    transition: .4s;
+}
+#main-manu ul li a:hover{
+    color: #d50a51;
+}
+
+#main-manu ul li a img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+    transition: .4s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+#main-manu ul li a:hover img{
+    opacity: 1;
+    visibility: visible;
+    bottom: -13px;
+}
+#main-manu button{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #d50a51;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+}
+#main-manu .manu_item{
+    position: relative;
+}
+
+#main-manu .logButton{
+    position:absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+/* manu css part end */
+
+
+/* banner part css start */
+#banner{
+    background: url(../Images/bannnerbackground.png) no-repeat center;
+    background-size: cover;
+
+}
+#banner .text{
+    text-align:center;
+    padding-top: 225px;    
+    /* padding-bottom: 145px; */
+}
+#banner h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 61px;
+    font-weight: 400;
+    color: #8a5e3b;
+    text-transform: uppercase;
+    line-height: 54px;
+}
+#banner h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 84px;
+    font-weight: 600;
+    color: #d50a51;
+    line-height: 54px;
+}
+#banner p{
+font-size: 16px;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif;
+line-height: 26px;
+color: #444;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+#banner a{
+    font-weight: 600;
+    font-size: 16px;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid #d50a51;
+    border-radius: 40px;
+    transition: .4s;
+
+}
+#banner .img{
+/* margin-top: 50px; */
+
+}
+#banner a:hover{
+background-color:#d50a51;
+color: #fff;
+}
+
+
+/* banner part css end */
+
+/* History css part start */
+#history{
+    margin-top: 100px;
+}
+
+#history h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #7f7f7f;
+    line-height: 34px;
+    padding-left:60px ;
+    padding-top: 20px;
+}
+#history h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #d50a51;
+    line-height: 34px;
+    padding-left:60px ;
+}
+#history p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    color: #444;
+    margin-top: 40px;
+    margin-bottom: 37px;
+    }
+    #history p span{
+        /* margin-top: 40px; */
+        display: block;
+        padding-top: 35px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 26px;
+        color: #444;
+    }
+    #history .text{
+        position: relative;
+    }
+    #history .text img{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+/* History css part end  */
+/* gift section css start */
+
+#gift{
+    background: url(../Images/bacgroundImg.png)no-repeat center;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+#gift .text{
+    padding-top: 60px;
+    position: relative;
+}
+#gift .text img{
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+#gift h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #666666;
+    line-height: 34px;
+    padding-left:60px ;
+    padding-top: 20px;
+}
+#gift h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #d50a51;
+    line-height: 34px;
+    padding-left:60px ;
+}
+#gift p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    color: #444;
+    margin-top: 40px;
+    margin-bottom: 37px;
+    }
+    #gift p span{
+        display: block;
+        /* margin-top: 40px; */
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 26px;
+        color: #444;
+    }
+    #gift .img {
+        position: relative;
+    }
+
+    #gift .img img{
+        position: absolute;
+        top: -180px;
+        left: -160px;
+
+    }
+    #gift a{
+        margin-top: 30px;
+        margin-right: 17px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #d50a51;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 10px 20px;
+        border: none;
+        border: 1px solid #d50a51;
+        border-radius: 40px;
+        transition: .4s;
+    
+    }
+  #gift a:hover{
+    background-color: #d50a51;
+    color: #ffffff;
+    }  
+/* gift section css end */
+/* Ticket part css stsrt */
+#ticket{
+    margin-top: 142px; 
+}
+#ticket h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #666666;
+    line-height: 34px;
+    padding-right:55px ;
+    padding-top: 20px;
+    text-align: right;
+}
+#ticket h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #d50a51;
+    line-height: 34px;
+    padding-right:55px ;
+    text-align: right;
+}
+#ticket p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    color: #adadad;
+    margin-top: 40px;
+    text-align: right;
+
+    }
+
+ #ticket p span{
+    display: block;
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    color: #adadad;
+    text-align: right;
+    }
+#ticket .text{
+        padding-top: 20px;
+        position: relative;
+    }
+#ticket .text img{
+        position: absolute;
+        top: 20px;
+        right: 0;
+        transform: rotate(70deg);
+    }
+
+#ticket .img {
+    position: relative;
+}
+
+#ticket .img img{
+    position: absolute;
+    top: 60px;
+    left: -90px;
+
+}
+#ticket .text a{
+    position: absolute;
+    bottom: -72px;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 17px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid #d50a51;
+    border-radius: 40px;
+    transition: .4s;
+}
+    #ticket a:hover{
+    background-color: #d50a51;
+    color: #ffffff;
+    } 
+    #ticket .text .but a{
+        position: absolute;
+        bottom: -72px;
+        right: 127px;
+        margin-top: 30px;
+        margin-right: 17px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #d50a51;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 10px 20px;
+        border: none;
+        border: 1px solid #d50a51;
+        border-radius: 40px;
+        transition: .4s; 
+    }
+    #ticket .but a:hover{
+        background-color: #d50a51;
+        color: #ffffff;
+        } 
+/* Ticket part css end */
+
+/* Service part css start */
+#service{
+    background: url(../Images/bacgroundImg.png)no-repeat center;
+    background-size: cover;
+    padding-top: 150px;
+}
+#service h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #666666;
+    line-height: 34px;
+    padding-left:55px ;
+    padding-top: 20px;
+
+}
+#service h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #d50a51;
+    line-height: 34px;
+    padding-left:55px ;
+}
+#service p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    color: #adadad;
+    margin-top: 50px;
+    }
+
+ #service p span{
+    display: block;
+    margin-top: 35px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    color: #adadad;
+    }
+    #service .left_part {
+        position: relative;
+    }
+    
+    #service .left_part img{
+        position: absolute;
+        top: 0px;
+        left: 0;
+    
+    }
+    #service .item h2{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #d50a51;
+        line-height: 24px;
+        margin-left: 15px;
+
+    }
+
+    #service .item{
+        margin-top: 50px;
+        position: relative;
+    }
+    
+    #service .item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    #service .item p{
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 26px;
+        color: #444444;
+        }
+    #service .item{
+    margin: 40px 30px;
+    border-right: 3px solid transparent;
+
+    transition: .4s;
+    }
+    #service .item:hover{
+        background-color: #f1f1f1;
+        border-color: #d50a51;
+    }
+
+/* Service part css end  */
+/* Capture part css start */
+#capture{
+    padding: 100px 0;
+}
+#capture .img img{
+    width: 100%;
+}
+#capture .img{
+    position: relative;
+    margin-bottom: 24px;
+}
+#capture .img .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: scale(.5);
+    opacity: 0;
+    transition: .4s;
+}
+
+#capture .img .overlay:hover{
+opacity: 1;
+transform: scale(1);
+}
+#capture .img .overlay ul{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+#capture .img .overlay ul li i{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #d50a51;
+    margin: 5px 0;
+}
+#capture .img .overlay ul li i:hover{
+    background-color: #d50a51;
+}
+
+#capture .img .overlay .romantic {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #f1f1f1;
+}
+#capture .text h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #666666;
+    line-height: 34px;
+    padding-right:55px ;
+    /* padding-top: 20px; */
+    text-align: right;
+}
+#capture .text h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #d50a51;
+    line-height: 34px;
+    padding-right:55px ;
+    text-align: right;
+}
+#capture .text p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    color: #adadad;
+    margin-top: 40px;
+    text-align: right;
+ }
+ #capture .text p span{
+        display: block;
+        margin-top: 35px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 26px;
+        color: #adadad;
+        text-align: right;
+ }
+ #capture .text{
+        padding-top: 20px;
+        position: relative;
+    }
+#capture .text img{
+        position: absolute;
+        top: 0px;
+        right: 0;
+        transform: rotate(70deg);
+    }
+    #capture .text a{
+        position: absolute;
+        bottom: -72px;
+        right: 0;
+        margin-top: 30px;
+        margin-right: 17px;
+        font-weight: 600;
+        font-size: 16px;
+        color: #d50a51;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 10px 20px;
+        border: none;
+        border: 1px solid #d50a51;
+        border-radius: 40px;
+        transition: .4s;
+    }
+        #capture a:hover{
+        background-color: #d50a51;
+        color: #ffffff;
+        } 
+        #capture .text .but a{
+            position: absolute;
+            bottom: -72px;
+            right: 127px;
+            margin-top: 30px;
+            margin-right: 17px;
+            font-weight: 600;
+            font-size: 16px;
+            color: #d50a51;
+            font-family: 'Josefin Sans', sans-serif;
+            padding: 10px 20px;
+            border: none;
+            border: 1px solid #d50a51;
+            border-radius: 40px;
+            transition: .4s; 
+        }
+        #capture .but a:hover{
+            background-color: #d50a51;
+            color: #ffffff;
+            } 
+/* Capture part css end  */
+
+
+/* countDown part css start */
+
+.counter_container{
+    padding: 50px 0;
+    background: url(../Images/pic.png) no-repeat center;
+    background-size: cover;
+    }
+    .counter_container .main{
+        display: flex;
+        justify-content: space-between;
+    }
+    .counter_container .main .item{
+        width: 25%;
+        padding:  30px 0 ;
+        text-align: center;
+        color: blue;
+        border-radius: 20px;
+    }
+    .counter_container .main .item h1{
+
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        color:#d50a51;
+        line-height: 30px;
+    }
+    .counter_container .main .item h2{
+
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        color:#444444;
+        line-height: 30px;
+    }
+
+/* countDown part css end */
+
+
+/* slider part css start */
+
+#slic{
+    padding: 100px 0;
+}
+.prev{
+    font-size: 32px;
+    color: brown;
+    position: absolute;
+    left: -60px;
+    top: 40%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    /* padding: 8px 16px; */
+    border: none;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    transition: .4s; 
+}
+.prev:hover{
+    background-color: #d50a51;
+    color: #f1f1f1;
+}
+.next{
+    font-size: 32px;
+    color: brown;
+    position: absolute;
+    right: -60px;
+    top: 40%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    /* padding: 8px 16px; */
+    border: none;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    transition: .4s;
+
+}
+.next:hover{
+    background-color: #d50a51;
+    color: #f1f1f1;
+}
+#slic .stuf_left{
+    padding: 50px 16px ;
+    background: url(../Images/aminibackground.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+#slic .stuf_left img{
+    position: absolute;
+    left: 16px;
+    top:165pxpx
+}
+#slic .stuf_left p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    color: #444444;
+}
+#slic .stuf_left h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color:#222222;
+    line-height: 30px; 
+    line-height: 24px;
+    padding-top: 30px;
+    padding-left: 116px;
+}
+#slic .stuf_left h3{
+    color: #444444;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 116px;
+
+
+}
+#slic .stuf_right{
+    padding: 50px 16px ;
+    background: url(../Images/aminibackground.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    margin-left: 15px;
+}
+#slic .stuf_right img{
+    position: absolute;
+    left: 16px;
+    top:165pxpx
+}
+#slic .stuf_right p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 26px;
+    color: #444444;
+}
+#slic .stuf_right h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color:#222222;
+    line-height: 30px; 
+    line-height: 24px;
+    padding-top: 30px;
+    padding-left: 116px;
+}
+#slic .stuf_right h3{
+    color: #444444;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 116px;
+
+
+}
+
+/*slider part css end */
+
+/* Address part css start */
+#address{
+    background: url(../Images/second_lastImage.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+/* bar */
+
+#address .letter{
+    position: absolute;
+    background-color:#d50a51;
+    margin-left: 30px;
+    padding: 30px 100px;
+    border-radius: 100px;
+    transform: translateY(-50%);
+}
+#address .letter .main{
+    display: flex;
+}
+
+#address .letter .main .left {
+	position: relative;
+	padding-left: 55px;
+}
+
+#address .letter .main .left i{
+    font-size: 50px;
+    color:#f1f1f1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+#address .letter .main h2{
+    line-height: 24px;
+    color: #f1f1f1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#address .letter .main p{
+    line-height: 24px;
+    color: #f1f1f1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#address .letter .right{
+    display: flex;
+    align-items: center;
+}
+
+#address .letter form{
+    display: flex;
+    position: relative;
+}
+
+
+#address .letter form input{
+    margin-left: 50px;
+    height: 33px;
+    padding: 0 15px;
+    background: transparent;
+    border: 1px solid #fff;
+}
+#address .letter form input {
+    outline: none;
+}
+
+#address .letter button{
+    border: none;
+    background-color: transparent;
+}
+
+#address .letter button i {
+	height: 33px;
+	width: 40px;
+	line-height: 33px;
+	text-align: center;
+	font-size: 20px;
+	color: #f1f1f1;
+	background-color: transparent;
+	border: 1px solid #fff;
+	margin-top: 1px;
+	position: absolute;
+	right: -35px;
+	top: -1px;
+}
+/* bar end */
+#address .location h2{
+    padding-top: 180px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #828282;
+    padding-left: 73px;  
+}
+#address .location h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #828282;  
+    padding-left: 73px;  
+
+}
+#address .location{
+    position: relative;
+}
+#address .location i {
+    position: absolute;
+    left: 0px;
+    top: 205px;
+    font-size: 26px;
+    font-weight: 400;
+    background-color:#d50a51;
+    padding: 6px 12px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    color: #f1f1f1;
+
+    }
+#address .mail{
+ position: relative;
+ }
+       
+#address .mail img{
+position: absolute;
+top: 85px;
+left: 50px;
+}
+#address .mail h2{
+    padding-top: 180px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #828282;
+    padding-left: 73px;  
+}
+#address .mail h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #828282;  
+    padding-left: 73px;  
+
+}
+#address .mail{
+    position: relative;
+}
+#address .mail i {
+    position: absolute;
+    left: 0px;
+    top: 205px;
+    font-size: 26px;
+    font-weight: 400;
+    background-color:#d50a51;
+    padding: 6px 8px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    color: #f1f1f1;
+    }
+#address h4{
+    padding-top: 66px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.bundel{
+    text-align: center;
+}
+#address .icon i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #d50a51;
+    line-height: 40px;
+    font-weight: 400;
+    background-color:#f1f1f1;
+    /* padding: 12px 16px; */
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    transition: .4s;
+}
+#address .icon i:hover{
+    color:#f1f1f1 ;
+    background-color: #d50a51;
+}
+#address .icon{
+    padding-bottom: 30px;
+}
+
+#address .web h2{
+    padding-top: 180px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #828282;
+    padding-left: 73px;  
+}
+#address .web h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #828282;  
+    padding-left: 73px;  
+
+}
+#address .web{
+    position: relative;
+}
+#address .web i {
+    position: absolute;
+    left: 0px;
+    top: 205px;
+    font-size: 26px;
+    font-weight: 400;
+    background-color:#d50a51;
+    padding: 6px 8px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    color: #f1f1f1;
+    }
+/* Address part css end */
+/* Footer part css start */
+#footer{
+    background: url(../Images/lastBack.png)no-repeat center;
+    background-size: cover;
+}
+#footer .last_part{
+    text-align: center;
+}
+#footer p{
+    color: #af9fa6;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+#footer p span{
+    color: #d50a51;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Footer part css end */
+
+
+
+
+
+
